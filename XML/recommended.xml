@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<message action="recommendedupdate" sessionID="2222222">
+	<service id="McGill_CamArray_Player_001" />
+	<parameter id="RECOMMENDEDCAMERA" unit="stream" value="live3.flv" />
+</message>

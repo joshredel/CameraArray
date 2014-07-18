@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<message action="start" sessionID="2222222">
+    <service id="McGill_CamArray_Player_001"/>
+    <parameter id="TITLE" unit="null" value="Thorax dissection (8:30am, October 30, 2009)"/>
+    <parameter id="CONTROL_CHANNEL_REQUEST_ADDRESS" unit="null" value="192.168.53.198:9191"/>
+    <parameter id="KEYWORDS" unit="null" value="thorax, dissection, heart, carotid"/>
+    <parameter id="CAMERAS" unit="null">
+        <camera id="0" location="0" address="rtmp://localhost/cameraarray/" stream="videos/live0.flv"/>
+        <camera id="1" location="45" address="rtmp://localhost/cameraarray/" stream="videos/live1.flv"/>
+        <camera id="2" location="180" address="rtmp://localhost/cameraarray/" stream="videos/live2.flv"/>
+        <camera id="3" location="225" address="rtmp://localhost/cameraarray/" stream="videos/live3.flv"/>
+        <camera id="4" location="270" address="rtmp://localhost/cameraarray/" stream="videos/live4.flv"/>
+        <camera id="5" location="315" address="rtmp://localhost/cameraarray/" stream="videos/live5.flv"/>
+        <camera id="null" location="overhead" address="rtmp://localhost/cameraarray/" stream="videos/overhead.flv"/>
+        <camera id="null" location="interpolation" address="rtmp://localhost/cameraarray/" stream="videos/live0.flv"/>
+    </parameter>
+</message>
